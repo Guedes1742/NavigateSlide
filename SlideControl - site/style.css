@@ -1,68 +1,79 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #121212;
-    color: #f0f0f0;
-    margin: 0;
-    padding: 0;
+  background-color: #0f0f0f;
+  color: #f0f0f0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  padding: 40px 20px;
 }
 
 .container {
-    max-width: 800px;
-    margin: auto;
-    padding: 20px;
+  max-width: 800px;
+  background-color: #1a1a1a;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 0 30px rgba(0,0,0,0.4);
+  text-align: center;
 }
 
 .logo {
-    display: block;
-    margin: 20px auto;
-    width: 120px;
+  width: 80px;
+  margin-bottom: 15px;
 }
 
 h1 {
-    text-align: center;
-    color: #ff6f61;
+  font-size: 2.4em;
+  margin-bottom: 5px;
 }
 
 .tagline {
-    text-align: center;
-    font-size: 1.2em;
-    margin-bottom: 30px;
+  font-size: 1.1em;
+  margin-bottom: 25px;
+  color: #bbb;
 }
 
 .btn-download {
-    display: block;
-    width: 250px;
-    margin: 20px auto;
-    padding: 15px;
-    text-align: center;
-    background-color: #ff6f61;
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 8px;
-    transition: background-color 0.3s;
+  display: inline-block;
+  background-color: #0078d7;
+  color: white;
+  text-decoration: none;
+  padding: 15px 40px;
+  border-radius: 10px;
+  font-size: 1.2em;
+  transition: background 0.3s;
 }
 
 .btn-download:hover {
-    background-color: #e55b50;
+  background-color: #005ea3;
 }
 
-section {
-    margin-bottom: 40px;
+hr {
+  margin: 40px 0;
+  border: 0;
+  border-top: 1px solid #333;
 }
 
 h2 {
-    color: #ff6f61;
-    margin-top: 30px;
+  color: #00aaff;
+  margin-bottom: 10px;
 }
 
 ol, ul {
-    margin-left: 20px;
+  text-align: left;
+  margin: 0 auto 20px;
+  max-width: 600px;
+  line-height: 1.6;
+}
+
+li {
+  margin-bottom: 8px;
 }
 
 .footer {
-    text-align: center;
-    margin-top: 40px;
-    font-size: 0.9em;
-    color: #aaa;
+  font-size: 0.9em;
+  opacity: 0.7;
+  margin-top: 30px;
 }
